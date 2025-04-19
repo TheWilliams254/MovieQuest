@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <nav style={styles.navbar}>
-      <h1 style={styles.logo}>Movie Database</h1>
+      <h1 style={styles.logo}>MovieQuest</h1>
       <div style={styles.links}>
         <Link to="/" style={styles.link}>
           Home
