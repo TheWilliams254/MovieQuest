@@ -4,6 +4,7 @@ import MovieList from "../components/MovieList";
 
 const API_KEY = import.meta.env.VITE_API_KEY;
 const BASE_URL =import.meta.env.VITE_BASE_URL;
+console.log("API Key in prod:", import.meta.env.VITE_API_KEY);
 
 const Home = () => {
   const [movies, setMovies] = useState([]);
